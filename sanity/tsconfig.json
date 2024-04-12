@@ -7,7 +7,8 @@
     "strict": true,
     "forceConsistentCasingInFileNames": true,
     "noEmit": true,
-    "module": "Preserve",
+    "module": "esnext",
+    "moduleResolution": "Node", // Add this line
     "moduleDetection": "force",
     "isolatedModules": true,
     "jsx": "preserve",
